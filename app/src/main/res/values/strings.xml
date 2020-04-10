@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">EverythingReviewed</string>
+    <string name="category">Category</string>
+    <string name="name">Name</string>
+    <string name="review_comments">Review Comments</string>
+    <string name="post_review">Post Review</string>
 </resources>
