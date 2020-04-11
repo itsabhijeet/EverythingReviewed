@@ -8,9 +8,10 @@ public interface CreateReviewContract {
 
     interface presenter extends BasePresenter{
 
+          void handlePostReviewClick();
     }
 
     interface view extends BaseView<presenter>{
-
+         void onPostReviewClicked();
     }
 }

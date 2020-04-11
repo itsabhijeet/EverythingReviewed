@@ -4,4 +4,13 @@
     <string name="name">Name</string>
     <string name="review_comments">Review Comments</string>
     <string name="post_review">Post Review</string>
+
+    <string-array name="categories">
+        <item>Book</item>
+        <item>Television</item>
+        <item>Laptop</item>
+        <item>Mobile</item>
+        <item>Headphone</item>
+
+    </string-array>
 </resources>
