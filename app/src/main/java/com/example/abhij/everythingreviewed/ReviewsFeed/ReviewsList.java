@@ -1,5 +1,6 @@
 package com.example.abhij.everythingreviewed.ReviewsFeed;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -23,13 +24,18 @@ public class ReviewsList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.review_list);
 
+
+        Intent intent = getIntent();
+        Bundle bundle = intent.getBundleExtra("Bundle");
+        reviews = (List<ReviewModel>) bundle.getSerializable("Reviews");
+
         recyclerView = findViewById(R.id.reviewListContainer);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
         // Dummy Reviews for testing purpose
 
-        createDummyReviews();
+       // createDummyReviews();
 
         reviewAdapter = new ReviewAdapter(reviews);
         recyclerView.setAdapter(reviewAdapter);

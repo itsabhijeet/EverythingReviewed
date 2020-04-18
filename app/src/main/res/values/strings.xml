@@ -4,6 +4,9 @@
     <string name="name">Name</string>
     <string name="review_comments">Review Comments</string>
     <string name="post_review">Post Review</string>
+    <string name="search_item">Search Item</string>
+    <string name="create_review">Create Review</string>
+    <string name="or">OR</string>
 
     <string-array name="categories">
         <item>Book</item>

@@ -2,7 +2,9 @@ package com.example.abhij.everythingreviewed.CreateReview;
 
 import androidx.annotation.NonNull;
 
-public class ReviewModel {
+import java.io.Serializable;
+
+public class ReviewModel implements Serializable {
 
 
     String category;
